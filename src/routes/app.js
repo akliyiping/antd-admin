@@ -43,7 +43,7 @@ const App = ({ children, dispatch, app, loading, location }) => {
     menuPopoverVisible,
     navOpenKeys,
     switchMenuPopover () {
-      dispatch({ type: 'app/switchMenuPopver' })
+      dispatch({ type: 'app/switchMenuPopover' })
     },
     logout () {
       dispatch({ type: 'app/logout' })

@@ -150,7 +150,7 @@ export default {
       }
     },
 
-    switchMenuPopver (state) {
+    switchMenuPopover (state) {
       return {
         ...state,
         menuPopoverVisible: !state.menuPopoverVisible,
